@@ -1,5 +1,12 @@
 #include "sort.h"
 
+/*
+ * This file implements the bubble sort algorithm to sort an array of integers.
+ * It includes a swap function to swap two integers and a bubble_sort function
+ * to sort the array using the bubble sort algorithm. The print_array function
+ * is assumed to be declared elsewhere to print the array state after each swap.
+ */
+
 void swap(int *xp, int *yp)
 {
 	int temp = *xp;
