@@ -1,6 +1,3 @@
-#ifndef SORT_H
-#define SORT_H
-
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,4 +45,4 @@ void quick_sort_hoare(int *array, size_t size);
 
 void sort_deck(deck_node_t **deck);
 
-#endif
+
