@@ -20,3 +20,7 @@ void print_list(const listint_t *list);
 void selection_sort(int *array, size_t size);
 
 void quick_sort(int *array, size_t size);
+
+int splitor(int *arr, int left, int right, size_t size);
+
+void sorting(int *arr, int left, int right, size_t size);
