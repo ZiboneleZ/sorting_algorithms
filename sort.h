@@ -1,3 +1,6 @@
+#ifndef SORT_H
+#define SORT_H
+
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,3 +45,5 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 
 void quick_sort_hoare(int *array, size_t size);
+
+#endif
